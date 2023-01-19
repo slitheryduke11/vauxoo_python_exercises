@@ -2,4 +2,4 @@
 """Print a greeting."""
 
 if __name__ == '__main__':
-	print ('¡Hola, mundo!')
+	print ('Hello, world!')
