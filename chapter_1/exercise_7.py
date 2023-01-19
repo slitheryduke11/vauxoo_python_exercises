@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Program that increments a variable by one and prints the result."""
+"""Increment a variable by one and print the result."""
 
 if __name__ == '__main__':
 	x = 43

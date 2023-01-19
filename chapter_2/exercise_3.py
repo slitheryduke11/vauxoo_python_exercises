@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Program that prompts the user for the number of hours and
-the hourly rate to calculate gross pay."""
+"""Calculate a gross salary based on a number of hours and hourly rate."""
 
 if __name__ == '__main__':
 	try:

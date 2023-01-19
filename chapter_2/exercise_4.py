@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Program that executes assignment statements and prints
-their value and type."""
+"""Execute assignment statements and print their value and type."""
 
 if __name__ == '__main__':
 	width, height = 17, 12.0

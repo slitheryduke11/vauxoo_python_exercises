@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Program that prompts the user for their name and welcome them."""
+"""Welcome a user."""
 
 if __name__ == '__main__':
 	user_name = input('Enter your name: ')

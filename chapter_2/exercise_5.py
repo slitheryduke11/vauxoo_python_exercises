@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Program that prompts the user for a temperature in degrees
-Celsius and converts it to degrees Fahrenheit."""
+"""Convert degrees Celsius to degrees Fahrenheit."""
 
 if __name__ == '__main__':
 	try:
