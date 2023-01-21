@@ -2,8 +2,7 @@
 """Print and count the lines in a file that start with the word 'From'."""
 
 if __name__ == '__main__':
-	# filename = input('Enter filename: ')
-	filename = 'mbox-short.txt'
+	filename = input('Enter filename: ')
 	counter = 0
 	try:
 		file = open(filename)
