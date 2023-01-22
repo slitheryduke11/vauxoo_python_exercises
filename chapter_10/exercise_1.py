@@ -17,7 +17,7 @@ def get_email_counter_ordered(file):
 	return email_counter_ordered
 
 
-if __name__ == '__main__':
+def main():
 	filename = input('Enter filename: ')
 	try:
 		file = open(filename)
@@ -26,3 +26,7 @@ if __name__ == '__main__':
 	else:
 		email_counter_ordered = get_email_counter_ordered(file)
 		print(email_counter_ordered[0][1], email_counter_ordered[0][0])
+
+
+if __name__ == '__main__':
+	main()

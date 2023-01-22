@@ -2,6 +2,7 @@
 """Get the hours in ascending order and their repetitions."""
 
 def get_hour_counter_ordered(file):
+	"""Returns a list with hours and their repetitions in ascending order."""
 	hour_counter = dict()
 	# Store hours and their repetitions
 	for line in file:
@@ -18,7 +19,7 @@ def get_hour_counter_ordered(file):
 	return hour_counter_ordered
 
 
-if __name__ == '__main__':
+def main():
 	filename = input('Enter filename: ')
 	try:
 		file = open(filename)
@@ -28,3 +29,7 @@ if __name__ == '__main__':
 		hour_counter_ordered = get_hour_counter_ordered(file)
 		for hour, repetitions in hour_counter_ordered:
 			print(hour, repetitions)
+
+
+if __name__ == '__main__':
+	main()

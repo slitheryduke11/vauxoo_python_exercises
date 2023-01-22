@@ -11,6 +11,7 @@ letter_counter = {
 
 
 def get_letter_counter_ordered(file):
+	"""Returns a list with letters and their repetitions in descending order."""
 	# Store letters and their repetitions
 	for line in file:
 		line = line.translate(line.maketrans('', '', string.punctuation)).lower()
@@ -25,7 +26,7 @@ def get_letter_counter_ordered(file):
 	return letter_counter_ordered
 
 
-if __name__ == '__main__':
+def main():
 	filename = input('Enter filename: ')
 	try:
 		file = open(filename)
@@ -35,3 +36,7 @@ if __name__ == '__main__':
 		letter_counter_ordered = get_letter_counter_ordered(file)
 		for repetitions, letter in letter_counter_ordered:
 			print(letter, repetitions)
+
+
+if __name__ == '__main__':
+	main()
